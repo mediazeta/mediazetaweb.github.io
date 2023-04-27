@@ -31,7 +31,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-area .contents h2 {
     font-size: 38px; }
-  .navbar-expand-md .navbar-nav .nav-link {
+  .navbar-expand-md .navbar-nav .nav-link{
     padding: 12px 5px;
     font-size: 13px;
     margin-left: 15px; }
@@ -166,7 +166,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-inverse {
-    background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%) !important; }
+    background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%) !important; }    
   .navbar {
     padding: 0; }
   .navbar-brand img {
