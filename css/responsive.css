@@ -166,7 +166,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-inverse {
-    background: #191c1e; }
+    background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%) !important; }
   .navbar {
     padding: 0; }
   .navbar-brand img {
