@@ -20,11 +20,42 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
+
+
+    <!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MB7HJ8K');</script>
+    <!-- End Google Tag Manager -->
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/estilos.css">
     
 
   </head>
   
   <body>
+
+    <!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB7HJ8K"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <div class="aviso-cookies" id="aviso-cookies">
+      <img class="galleta" src="./img/cookie.svg" alt="Galleta">
+      <h3 class="titulo">Cookies</h3>
+      <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+      <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+      <a class="enlace" href="aviso-cookies.html">Aviso de Cookies</a>
+    </div>
+    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+
 
     <!-- Header Section Start -->
     <header id="home" class="hero-area">    
@@ -457,7 +488,15 @@
             <li><a class="page-scroll" href="#team">- Nosotros</a></li>
             <li><a class="page-scroll" href="#contact">- Contacto</a></li>
             </ul>
-            </div>                     
+            </div>      
+            
+            <div class="widget" style="margin-left: 100px;">
+              <h3 class="block-title">Aviso legal</h3>
+              <ul class="menu">
+              <li><a class="page-scroll" href="aviso-cookies.html"> - Aviso de Cookies</a></li>
+              <li><a class="page-scroll" href="politicas-de-privacidad.html">- Política de Privacidad</a></li>
+              </ul>
+              </div>
 
           </div>
           <!-- End Row -->
@@ -512,6 +551,7 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js"></script>
+    <script src="js/aviso-cookies.js"></script>
     
   </body>
 </html>
